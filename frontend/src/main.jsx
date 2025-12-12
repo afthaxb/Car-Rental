@@ -5,7 +5,7 @@ import './styles/globals.css';
 import axios from 'axios';
 
 // Set base URL for all API requests
-axios.defaults.baseURL = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
+axios.defaults.baseURL = import.meta.env.VITE_API_URL || 'http://localhost:5000';
 axios.defaults.withCredentials = true; // Important for cookies/sessions if used
 
 import { AuthProvider } from './context/AuthContext';
