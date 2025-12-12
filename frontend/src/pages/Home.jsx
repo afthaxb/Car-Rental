@@ -42,9 +42,9 @@ const Home = () => {
           <div className="max-w-3xl mx-auto text-center">
             <div className="mb-6 animate-fadeIn">
               <h1 className="text-6xl md:text-7xl font-bold mb-2">
-                <span className="text-gray-400 inline-block animate-slideInUp">Rent</span>
-                <span className="text-blue-400 inline-block animate-slideInUp delay-300">My</span>
-                <span className="text-white inline-block animate-slideInUp delay-500">Ride</span>
+                <span className="text-blue-400 inline-block animate-slideInUp">Hi</span>
+                <span className="text-sky-200 inline-block animate-slideInUp delay-300">tech</span>
+                <span className="text-white inline-block animate-slideInUp delay-500">Rentals</span>
               </h1>
               <div className="h-1 w-32 bg-gradient-to-r from-blue-400 to-purple-600 mx-auto rounded-full animate-expandWidth"></div>
             </div>
@@ -74,7 +74,7 @@ const Home = () => {
       <section ref={featuresRef} className="py-24 bg-gradient-to-b from-black to-gray-900">
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-white">Why Choose RentMyRide</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-white">Why Choose HitechRentals</h2>
             <div className="h-1 w-24 bg-gradient-to-r from-blue-400 to-purple-600 mx-auto rounded-full"></div>
           </div>
           
